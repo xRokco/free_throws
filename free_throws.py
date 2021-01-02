@@ -41,6 +41,7 @@ if __name__ == "__main__":
                                     found = True
                                     if item[32] == 3:
                                         three_point_and_one = three_point_and_one + 1
+                                        fouls_on_three = fouls_on_three + 1
                                     else:
                                         two_point_and_one = two_point_and_one + 1
                                     break
